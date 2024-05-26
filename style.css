@@ -1,0 +1,403 @@
+/* Stile globale */
+body {
+    font-family: "Georgia", sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Intestazione */
+header {
+    background-color: #000000;
+    text-align: center;
+    padding: 1px;
+}
+
+/* Immagini */
+img {
+    max-width: 100%;
+    height: 105px;
+    border-radius: 5px;
+}
+
+article{
+
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/*Menù*/
+nav {
+    background-color: #000000;
+    overflow: hidden;
+    padding: 1px;
+    padding-top: 10px;
+}
+
+a {
+    color: #4e00ae;
+    text-decoration: none;
+}
+
+nav a {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+a:hover {
+    color: #C29436; 
+}
+
+/*Non funziona*/
+a:active {
+    color: #C29436; 
+}
+
+nav a img#profile-icon {
+    height: 40px; /* Altezza dell'icona del profilo */
+    width: 40px;  /* Larghezza dell'icona del profilo */
+    border-radius: 50%; /* Opzionale, per rendere l'icona circolare */
+}
+
+/* Allineamento dell'icona del profilo a destra */
+.profile-link {
+    margin-left: auto; /* Spinge l'icona del profilo verso destra */
+    display: flex;
+    align-items: center;
+}
+
+.profile-link img {
+    margin-left: 1000px; /* Spazio tra l'icona del profilo e i link precedenti */
+}
+
+/*Tabella servizi
+table{
+    table-layout: fixed;
+    width: 650px;
+    border: 1px solid #000000;
+    border-spacing: 5px;
+  }*/
+
+article{
+    display: flex;
+    align-items: center;
+}
+/*---------------------------------------*/
+
+/*INDEX*/
+#logo{
+    max-width: 100%;
+    height: 50px;
+    border-radius:  100px;
+
+}
+
+/* Stili per la prima sezione con video */
+#video-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#sponsors {
+    text-align: center;
+    background-color: #EFEFEFE6;
+}
+
+#sponsorContainer {
+    display: flex;
+    overflow: hidden;
+}
+
+.sponsor {
+    max-width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    padding-left: 70px;
+}
+
+video {
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+#video-section {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.frase {
+    position: absolute;
+    font-family: "Georgia", serif;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+/* Seconda parte index */
+#img_chef_index{
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right:100px ;
+    padding-top: 100px;
+}
+
+#img_piatto_index{
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right:100px ;
+    padding-top: 100px;
+}
+
+/* Newsletter */
+.newsletter {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 60%;
+}
+
+/*---------------------------------------*/
+
+
+/*STORIA*/
+#immagine_sfondo{
+    width: 5000px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#immagine_chef{
+    width: 500px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right:100px ;
+    padding-top: 100px;
+}
+
+.Paragrafo {
+    font-size: 25px;
+    flex: 1;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+h2{
+    color: #00661F;
+}
+
+.box_storia{
+    display: flex;
+    align-items: center;
+}
+
+/*---------------------------------------*/
+
+
+/* SERVIZI */
+.img_superiore {
+    width: 2160px;
+    height: auto;
+}
+
+#p_servizi {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #00661F;
+}
+
+#tab_servizi{
+    margin: auto;
+    border: 2px solid #000000;
+    border-spacing: 7px;
+}
+
+.celle{
+    padding: 7px; 
+    border: 2px solid #000000;
+
+}
+
+/* CUCINA */
+#img_cibo{
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    padding: 100px;
+}
+
+#paragrafo_cucina {
+    font-size: 30px;
+    flex: 1;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+/* CONTATTI */
+
+#img_contatti{
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 400px;
+    padding-right:100px ;
+    padding-top: 80px;
+}
+
+#paragrafo_contatti{
+    font-size: 23px;
+    flex: 1;
+    padding-right: 600px;
+    position: relative;
+
+}
+
+#titolo_contatto{
+    color: #00661F;
+    font-size: 45px;
+}
+
+.box {
+    text-align: center;
+}
+
+#form_contatti{
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+#socials {
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+#socialBox {
+    display: flex;
+    overflow: hidden;
+}
+
+.social {
+    height: 40px;
+    border-radius: 5px;
+    position: static;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.social_link{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#h2_space{
+    padding-left: 20px;
+}
+
+#email{
+    color: #000000;
+}
+
+/* RICETTE */
+#img_daniele_logo{
+    width: 600px;
+    height: auto;
+}
+
+.titolo_ricetta{
+    color: #00661F;
+    font-size: 35px;
+    padding-left: 20px;
+}
+
+.piatti, .ricette {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3{
+    color: #00661F;
+}
+
+.img_piatti{
+    width: 400px;
+    height: auto;
+    position: relative;
+    flex: 1;
+    overflow: auto;
+}
+
+.link_footer{
+    color: #C29436;
+}
+
+.img_logo_ricetta{
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: 800px;
+    padding-top: 35px;
+}
+
+.padding_ricetta{
+    padding-left: 20px;
+}
